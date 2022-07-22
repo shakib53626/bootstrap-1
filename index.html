@@ -1,0 +1,660 @@
+q<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SKATER</title>
+		<!-- Css file link -->
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Favicon file link -->
+		<link rel="icon" type="images/x-icon" href="">
+		<!-- Font Awsome icon link -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+		<!-- Language file link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<!-- Bootstarp-5 file link -->
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row mb-3" style="font-family: 'Rubik', sans-serif;">
+					<nav class="navbar navbar-expand-sm">
+						<a href="" class="navbar-brand text-uppercase" style="color: #ff8b00;"><h5>Skater</h5></a>
+						<ul class="navbar-nav ms-auto">
+							<li class="navbar-item me-3 active"><a href="" class="nav-link">Home</a></li>
+							<li class="navbar-item me-3"><a href="" class="nav-link">Services</a></li>
+							<li class="navbar-item me-3">
+								<div class="dropdown">
+									<button class="dropdown-toggle mt-2" data-bs-toggle="dropdown">About</button>
+									<ul class="dropdown-menu mt-2">
+										<li><a href="" class="dropdown-item">Team</a></li>
+										<li><a href="" class="dropdown-item">Pricing</a></li>
+										<li><a href="" class="dropdown-item">FAQ</a></li>
+										<li><hr class="dropdown-divider"></hr></li>
+										<li><a href="" class="dropdown-item">More Link <i class="bi bi-chevron-right ms-5"></i></a></li>
+										
+									</ul>
+								</div>
+							</li>
+							<li class="navbar-item me-3"><a href="" class="nav-link">Testimonials</a></li>
+							<li class="navbar-item me-3"><a href="" class="nav-link">Blog</a></li>
+							<li class="navbar-item me-3"><a href="" class="nav-link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="section">
+			<div class="row">
+				<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active" style="background-image:url('img/banner-1.png'); width:100%; height:700px; background-size: cover;" data-bs-interval="10000">
+							<div class="overlay" style="background-color: rgba(0, 0, 0, 0.3); height: 700px; width: 100%;">
+								<!-- <img src="img/banner-1.png" class="d-block w-100" alt="..."> -->
+								<div class="carousel-caption d-none d-md-block">
+									<h1>New Generation of<br> Skating</h1>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quod id, doloremque illum porro,<br> dolorum exercitationem ratione veritatis laboriosam consequatur.</p>
+									<button class="btn btn-outline-info text-white mt-5">Get in touch</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item" style="background-image:url('img/banner-2.png'); width:100%; height:700px; background-size: cover;" data-bs-interval="2000">
+							<div class="overlay" style="background-color: rgba(0, 0, 0, 0.3); height: 700px; width: 100%;">
+								<!-- <img src="img/banner-2.png" class="d-block w-100" alt="..."> -->
+								<div class="carousel-caption d-none d-md-block">
+									<h1>Hi I'm John and I<br> Skate a lot</h1>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quod id, doloremque illum porro,<br> dolorum exercitationem ratione veritatis laboriosam consequatur.</p>
+									<button class="btn btn-outline-info text-white mt-5">Get in touch</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="service">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-2 text-uppercase text-center" style="font-family: 'Oswald',sans-serif; color:#ff8b00; margin-top:160px;"><h1>Services</h1></div>
+						<div class="col-md-5"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-6 mt-3 text-center" style="font-family: 'Rubik', sans-serif; color:#939393;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo deserunt, quas vel libero ipsum quis est officiis a nesciunt.</p></div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-3">
+						<div class="col-md-12 bg-secondary" style="width:80px; height:80px;text-align: center; border-radius:100%;">
+							<img src="img/skate.png" alt="" class="image pt-3" style="width:50px;">
+						</div>
+						<div class="col-md-12 pt-2" >
+							
+							<h3 class="pt-3" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:white;">SKATE FOR BEGINNER</h3>
+						</div>
+						<div class="col-md-12 pt-3">
+							<p style="color:#939393;font-family: 'Rubik', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						<div class="col-md-12 bg-secondary" style="width:80px; height:80px;text-align: center; border-radius:100%;">
+							<img src="img/skateboard (2).png" alt="" class="image pt-3" style="width:50px;">
+						</div>
+						<div class="col-md-12 pt-2" >
+							
+							<h3 class="pt-3" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:white;">SKATE FOR BEGINNER</h3>
+						</div>
+						<div class="col-md-12 pt-3">
+							<p style="color:#939393;font-family: 'Rubik', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						<div class="col-md-12 bg-secondary" style="width:80px; height:80px;text-align: center; border-radius:100%;">
+							<img src="img/skateboard (3).png" alt="" class="image pt-3" style="width:50px;">
+						</div>
+						<div class="col-md-12 pt-2" >
+							
+							<h3 class="pt-3" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:white;">SKATE FOR BEGINNER</h3>
+						</div>
+						<div class="col-md-12 pt-3">
+							<p style="color:#939393;font-family: 'Rubik', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-3">
+						<div class="col-md-12 bg-secondary" style="width:80px; height:80px;text-align: center; border-radius:100%;">
+							<img src="img/skate.png" alt="" class="image pt-3" style="width:50px;">
+						</div>
+						<div class="col-md-12 pt-2" >
+							
+							<h3 class="pt-3" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:white;">SKATE FOR BEGINNER</h3>
+						</div>
+						<div class="col-md-12 pt-3">
+							<p style="color:#939393;font-family: 'Rubik', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						<div class="col-md-12 bg-secondary" style="width:80px; height:80px;text-align: center; border-radius:100%;">
+							<img src="img/skateboard (2).png" alt="" class="image pt-3" style="width:50px;">
+						</div>
+						<div class="col-md-12 pt-2" >
+							
+							<h3 class="pt-3" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:white;">SKATE FOR BEGINNER</h3>
+						</div>
+						<div class="col-md-12 pt-3">
+							<p style="color:#939393;font-family: 'Rubik', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-3 mb-5">
+						<div class="col-md-12 bg-secondary" style="width:80px; height:80px;text-align: center; border-radius:100%;">
+							<img src="img/skateboard (3).png" alt="" class="image pt-3" style="width:50px;">
+						</div>
+						<div class="col-md-12 pt-2" >
+							
+							<h3 class="pt-3" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:white;">SKATE FOR BEGINNER</h3>
+						</div>
+						<div class="col-md-12 pt-3">
+							<p style="color:#939393;font-family: 'Rubik', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ban-3.png" style="max-width:100%;">
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-5" style="padding-right:190px;">
+						<h3 class="pt-5 pb-4" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:#ff8b00;">MY BEST PERFORMANCE</h3>
+						<p style="font-family: 'Rubik', sans-serif; color: #939393;line-height:1.9;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+						<p style="font-family: 'Rubik', sans-serif; color: #939393;line-height:1.9;">Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+						<div class="row pt-5">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-success mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+									<i class="fa-solid fa-check text-success mt-2"></i>
+								</div>
+								<div class="col-md-10">
+									<p class="text-white">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Ipsam, libero!</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+									<i class="fa-solid fa-check text-success mt-2"></i>
+								</div>
+								<div class="col-md-10">
+									<p class="text-white">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+									<i class="fa-solid fa-check text-success mt-2"></i>
+								</div>
+								<div class="col-md-10">
+									<p class="text-white">Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					
+					<div class="col-md-1"></div>
+					<div class="col-md-5" style="padding-right:190px;">
+						<h3 class="pt-5 pb-4" style="font-family: 'Oswald', sans-serif; font-weight: 400; color:#ff8b00;">MY BEST PERFORMANCE</h3>
+						<p style="font-family: 'Rubik', sans-serif; color: #939393;line-height:1.9;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+						<p style="font-family: 'Rubik', sans-serif; color: #939393;line-height:1.9;">Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+						<div class="row pt-5">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-success mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+									<i class="fa-solid fa-check text-success mt-2"></i>
+								</div>
+								<div class="col-md-10">
+									<p class="text-white">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Ipsam, libero!</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+									<i class="fa-solid fa-check text-success mt-2"></i>
+								</div>
+								<div class="col-md-10">
+									<p class="text-white">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+									<i class="fa-solid fa-check text-success mt-2"></i>
+								</div>
+								<div class="col-md-10">
+									<p class="text-white">Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-4 mb-5">
+						<img src="img/ban-3.png" style="max-width:100%;">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="video pb-5 mb-5">
+			<div class="container mb-5">
+				<video src="img/Introducing Stanley.mp4" controls></video>
+			</div>
+		</section>
+
+
+
+
+	<section class="calculatio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<h1 class="exprience">30+</h1>
+					<div class="underline bg-secondary mt-4 mb-4"></div>
+					<p class="text-white">Year of Experience</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<h1 class="exprience">4+</h1>
+					<div class="underline bg-secondary mt-4 mb-4"></div>
+					<p class="text-white">Expert Trainer</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<h1 class="exprience">4+</h1>
+					<div class="underline bg-secondary mt-4 mb-4"></div>
+					<p class="text-white">Number of Trainer</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<h1 class="exprience">1500+</h1>
+					<div class="underline bg-secondary mt-4 mb-4"></div>
+					<p class="text-white">Number of Members</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section class="team">
+		<div class="container">
+			<div class="row">
+				<div class="row">
+					<div class="col-md-5"></div>
+					<div class="col-md-2 text-uppercase text-center" style="font-family: 'Oswald',sans-serif; color:#ff8b00; margin-top:160px;"><h1>Our Team</h1></div>
+					<div class="col-md-5"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-6">
+						
+						<p class="text-center mt-4 mb-5" style="color: #939393; font-family: 'Rubik', sans-serif;">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Obcaecati consequatur recusandae commodi architecto impedit, sit expedita id eos ullam maxime.</p>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row text-center justify-content-around mb-5">
+					<div class="col-md-3 icons bg-secondary pt-5 pb-5">
+						<div class="team-img">
+							<img src="img/carry.png" alt="">
+						</div>
+						<h5 class="mt-3 mb-2 text-name">BOB CARRY</h5>
+						<p class="text-uppercase text-info" style="font-family: 'Rubik', sans-serif;">SKATEBOARD TRAINER</p>
+						<i class="fa-brands fa-facebook-f text-white"></i>
+						<i class="fa-brands fa-twitter text-white"></i>
+						<i class="fa-brands fa-instagram text-white"></i>
+					</div>
+					<div class="col-md-3 icons bg-secondary pt-5 pb-5">
+						<div class="team-img">
+							<img src="img/carry.png" alt="">
+						</div>
+						<h5 class="mt-3 mb-2 text-name">BOB CARRY</h5>
+						<p class="text-uppercase text-info" style="font-family: 'Rubik', sans-serif;">SKATEBOARD TRAINER</p>
+						<i class="fa-brands fa-facebook-f text-white"></i>
+						<i class="fa-brands fa-twitter text-white"></i>
+						<i class="fa-brands fa-instagram text-white"></i>
+					</div>
+					<div class="col-md-3 icons bg-secondary pt-5 pb-5">
+						<div class="team-img">
+							<img src="img/carry.png" alt="">
+						</div>
+						<h5 class="mt-3 mb-2 text-name">BOB CARRY</h5>
+						<p class="text-uppercase text-info" style="font-family: 'Rubik', sans-serif;">SKATEBOARD TRAINER</p>
+						<i class="fa-brands fa-facebook-f text-white"></i>
+						<i class="fa-brands fa-twitter text-white"></i>
+						<i class="fa-brands fa-instagram text-white"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section class="pricing">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4 text-uppercase text-center" style="font-family: 'Oswald',sans-serif; color:#ff8b00; margin-top:160px;"><h1>SESSION PRICING</h1></div>
+					<div class="col-md-4"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-6 mt-3 text-center" style="font-family: 'Rubik', sans-serif; color:#939393;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo deserunt, quas vel libero ipsum quis est officiis a nesciunt.</p></div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+			<div class="row justify-content-around mb-5">
+				<div class="col-md-3 pt-5 pb-5 bg-secondary">
+					<div class="col-md-12 text-center">
+						<h3 class="text-uppercase text-white pb-3" style="font-family: 'Oswald',sans-serif; font-weight:400;">Basic</h3>
+						
+						<h1 style="color:#ff8b00;font-family: 'Oswald',sans-serif; font-size:48px;">$47<span class="text-white pb-4" style="font-size:16px; font-weight:300; font-family: 'Rubik', sans-serif;">/ year</span></h1>
+					</div>
+					<div class="row pt-5 ps-4">
+						<div class="col-md-1">
+							<i class="fa-solid fa-check text-warning mt-2"></i>
+						</div>
+						<div class="col-md-10">
+							<p class="text-white">Lorem ipsum dolor sit amet.</p>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Ipsam, libero!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+							</div>
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center mt-5">
+						<button class="bg-info btn text-white ps-4 pe-4">Buy Now</button>
+					</div>
+				</div>
+				<div class="col-md-3 pt-5 pb-5 bg-secondary">
+					<div class="col-md-12 text-center">
+						<h3 class="text-uppercase text-white pb-3" style="font-family: 'Oswald',sans-serif; font-weight:400;">PREMIUM</h3>
+						
+						<h1 style="color:#ff8b00;font-family: 'Oswald',sans-serif; font-size:48px;">$200<span class="text-white pb-4" style="font-size:16px; font-weight:300; font-family: 'Rubik', sans-serif;">/ year</span></h1>
+					</div>
+					<div class="row pt-5 ps-4">
+						<div class="col-md-1">
+							<i class="fa-solid fa-check text-warning mt-2"></i>
+						</div>
+						<div class="col-md-10">
+							<p class="text-white">Lorem ipsum dolor sit amet.</p>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Ipsam, libero!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+							</div>
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center mt-5 active">
+						<button class="bg-info btn text-white ps-4 pe-4 active">Buy Now</button>
+					</div>
+				</div>
+				<div class="col-md-3 pt-5 pb-5 bg-secondary">
+					<div class="col-md-12 text-center">
+						<h3 class="text-uppercase text-white pb-3" style="font-family: 'Oswald',sans-serif; font-weight:400;">PROFESSIONAL</h3>
+						
+						<h1 style="color:#ff8b00;font-family: 'Oswald',sans-serif; font-size:48px;">$750<span class="text-white pb-4" style="font-size:16px; font-weight:300; font-family: 'Rubik', sans-serif;">/ year</span></h1>
+					</div>
+					<div class="row pt-5 ps-4">
+						<div class="col-md-1">
+							<i class="fa-solid fa-check text-warning mt-2"></i>
+						</div>
+						<div class="col-md-10">
+							<p class="text-white">Lorem ipsum dolor sit amet.</p>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Ipsam, libero!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet, consectetur, adipisicing.</p>
+							</div>
+							<div class="col-md-1">
+								<i class="fa-solid fa-check text-warning mt-2"></i>
+							</div>
+							<div class="col-md-10">
+								<p class="text-white">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center mt-5">
+						<button class="bg-info btn text-white ps-4 pe-4">Buy Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<section class="question">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 text-uppercase text-center" style="font-family: 'Oswald',sans-serif; color:#ff8b00; margin-top:160px;"><h3>FREQUENTLY ASK QUESTIONS</h3></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row justify-content-around mt-3 mb-3">
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">WHERE ARE YOU FROM?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
+				</div>
+			</div>
+			<div class="row justify-content-around mt-3 mb-3">
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">WHAT AVAILABLE IS REFUND PERIOD?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">WHAT IS YOUR OPENING TIME?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+			</div>
+			<div class="row justify-content-around mt-3 mb-3">
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+			</div>
+			<div class="row justify-content-around mt-3 mb-3">
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">WHAT AVAILABLE IS REFUND PERIOD?</h4>
+					
+					<p style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+				<div class="col-md-5">
+					<h4 class="mb-3" style="color:#ff8b00; font-family: 'Oswald', sans-serif; font-weight:400;">WHAT AVAILABLE IS REFUND PERIOD?</h4>
+					
+					<p class="mb-5" style="font-family: 'Rubik', sans-serif; color:#939393;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="footer bg-info" style="padding:200px 0px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-white">
+					<h4 class="mb-4" style="font-family: 'Oswald', sans-serif;">ABOUT US</h4>
+					<p style="font-family: 'Rubik', sans-serif; padding-right:60px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+
+				</div>
+				<div class="col-md-4">
+					<h4 class="mb-4 text-white" style="font-family: 'Oswald', sans-serif;">FEATURES</h4>
+					<ul class="navbar-nav">
+						<li class="navbar-item"><a href="" style="color:#939393; line-height:1.9;">About Us</a></li>
+						<li class="navbar-item"><a href="" style="color:#939393; line-height:1.9;">Press Releases</a></li>
+						<li class="navbar-item"><a href="" style="color:#939393; line-height:1.9;">Testimonials</a></li>
+						<li class="navbar-item"><a href="" style="color:#939393; line-height:1.9;">Terms of Service</a></li>
+						<li class="navbar-item"><a href="" style="color:#939393; line-height:1.9;">Privacy</a></li>
+						<li class="navbar-item"><a href="" style="color:#939393; line-height:1.9;">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h4 class="mb-5 text-white" style="font-family: 'Oswald', sans-serif;">SUBSCRIBE TO NEWSLETTER</h4>
+					<div class="email mb-5" style="border:1px solid #939393; position:relative; border-radius:5px">
+						<form action="">
+						<input type="email" placeholder="Enter your Email" style="background:none; border:none;padding:10px 15px;">
+						</form>
+						<button class="bg-warning" style="position:absolute; top:0px; right: 0; padding:8px 25px;border-radius:5px; color:red;">Subscribe</button>
+					</div>
+					<h5 class="mb-2 text-white" style="font-family: 'Oswald', sans-serif;">FOLLOW US</h5>
+						<i class="fa-brands fa-facebook-f p-4"></i>
+						<i class="fa-brands fa-twitter p-4"></i>
+						<i class="fa-brands fa-instagram p-4"></i>
+				</div>
+				<div class="footer-li">
+					<hr>
+				</div>
+				<div class="copyright text-white text-center mt-4">
+					<p>Copyright ©2022 All rights reserved | This template is made with  <i class="fa-solid fa-heart text-danger"></i> by <a href="">Colorlib</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	
+	
+	<!-- All javascript file link hear -->
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>	
+</body>
+</html>
